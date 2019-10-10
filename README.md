@@ -1,7 +1,7 @@
 # mpv_dailymotion
 Stream videos from dailymotion using mpv
 
-There is a known problem with playing videos from dailymotion using mpv, due to ffmpeg. This script gets around those problems.
+**mpv_dailymotion** is a workaround a known problem with getting *ffmpeg* and *mpv* to stream videos from *dailymotion*. 
 
 ## Usage
 
