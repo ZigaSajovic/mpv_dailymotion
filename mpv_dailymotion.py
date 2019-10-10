@@ -1,4 +1,4 @@
-# /bin/python3
+#!/usr/bin/python3
 """
 This script will play a video from dailymotion,
 using mpv player. It gets around a problem
@@ -20,7 +20,7 @@ if len(args) == 0:
 
 link = args[0]
 
-#If its not a dailymotion link, skip the processing
+# If its not a dailymotion link, skip the processing
 if "dailymotion" in link:
   """
   The first call will fail, providing url which it attempted to
