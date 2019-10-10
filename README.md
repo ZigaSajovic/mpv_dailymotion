@@ -1,7 +1,7 @@
 # mpv_dailymotion
 Stream videos from dailymotion using mpv
 
-**mpv_dailymotion** is solves the problem of *ffmpeg* and *mpv* failing to stream videos from *dailymotion*. 
+**mpv_dailymotion** solves the problem of *ffmpeg* and *mpv* failing to stream videos from *dailymotion*. 
 
 ## Usage
 
