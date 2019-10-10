@@ -1,4 +1,4 @@
-#/bin/python3
+# /bin/python3
 """
 This script will play a video from dailymotion,
 using mpv player. It gets around a problem
@@ -8,6 +8,7 @@ The first argument
 it expects is a link, the rest will be
 forwarded to mpv.
 """
+import os
 import requests
 import subprocess
 import sys
@@ -41,4 +42,5 @@ so that it works with mpv.
 true_link = requests.head(link).headers["Location"]
 del_from = true_link.find("#cell=")
 true_link = true_link[0:del_from]
-subprocess.run(["mpv", true_link, " ".join(args[1:])])
+
+os.system(" ".join(["mpv", '"' + true_link + '"'] + args[1:]))
